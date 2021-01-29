@@ -16,6 +16,7 @@ public class RunnerMain {
         thread1.start();
         thread2.start();
 
+        //TODO
         thread2.interrupt();  // i = true
 
         System.out.println(Thread.activeCount());
