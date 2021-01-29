@@ -11,6 +11,7 @@ public class WaitAndNotify {
                 e.printStackTrace();
             }
         }, "t1");
+        Object obj = new Object();
         Thread t2 = new Thread(() -> {
             try {
                 methodClass.customer();
